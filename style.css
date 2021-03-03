@@ -664,7 +664,7 @@ body {
 
 .intro{
     min-height: 100vh;
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 180px;
     background: rgba(246, 242, 237, 0.33);
 }
@@ -676,7 +676,7 @@ body {
     font-size: 82px;
     letter-spacing: 0.15em;
     line-height: 120.8%;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
 }
 .intro__title2{
     font-family: 'Montserrat';
@@ -695,4 +695,45 @@ body {
     background: rgba(129, 113, 96, 0.1);
     background: 129,113,96,1;
     padding-top: 85px;
+    padding-bottom: 31px;
+}
+.about__me-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 89.8%;
+    letter-spacing: 0.1em;
+    margin-bottom: 18px;
+    color: rgba(58, 63, 67, 1);
+
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 61px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145.4%;
+    letter-spacing: 0.05em;
+    color: rgba(58, 63, 67, 1);
+}
+.about__card{
+    column-gap: normal;
+}
+.about__me-desc{
+    padding-bottom: 65px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: rgba(58, 63, 67, 1);
+}
+.bold__cards-title{
+    font-weight: bold;
 }
