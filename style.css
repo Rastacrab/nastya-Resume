@@ -577,10 +577,11 @@ body {
    line-height: 37px;
    letter-spacing: 0.12em;
    color: rgba(58, 63, 67, 1);
+
 }
 
 .wrapper {
-   max-width: 1040px;
+   max-width: 1080px;
    margin: 0 auto;
 }
 
@@ -623,6 +624,13 @@ body {
 .header__list {
    display: flex;
    flex-wrap: wrap;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 18px;
+   text-align: right;
+   letter-spacing: 0.12em;
 }
 
 .header__item {
@@ -654,16 +662,15 @@ body {
 
 /* Intro */
 
-.main {
-  min-height: 100vh;
-  background: rgba(246, 242, 237, 0.33);
-  background-size: cover;
-  padding-top: 300px;
-  padding-bottom: 100px;
+.intro{
+    min-height: 100vh;
+    padding-top: 200px;
+    padding-bottom: 180px;
+    background: rgba(246, 242, 237, 0.33);
 }
 
 .intro__title1{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 82px;
@@ -672,10 +679,20 @@ body {
     margin-bottom: 36px;
 }
 .intro__title2{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 26px;
     line-height: 32px;
     letter-spacing: 0.125em;
+}
+
+.about__me{
+    margin: auto;
+}
+
+.about__box{
+    background: rgba(129, 113, 96, 0.1);
+    background: 129,113,96,1;
+    padding-top: 85px;
 }
