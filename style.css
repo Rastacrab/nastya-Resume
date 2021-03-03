@@ -591,7 +591,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(58, 63, 67, 1);
+    background: rgba(246, 242, 237, 0.33);
 }
 
 .header__wrapper {
@@ -656,7 +656,7 @@ body {
 
 .main{
   min-height: 100vh;
-  background: rgba(194, 149, 95, 0.33);
+  background: rgba(246, 242, 237, 0.33);
   background-size: cover;
   padding-top: 300px;
   padding-bottom: 100px;
