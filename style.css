@@ -236,7 +236,7 @@ img {
     /* 1 */
     -ms-interpolation-mode: bicubic;
     /* 2 */
-    height: auto;
+    
 }
 
 /**
@@ -629,7 +629,6 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 18px;
-   text-align: right;
    letter-spacing: 0.12em;
 }
 
@@ -704,15 +703,16 @@ body {
     letter-spacing: 0.125em;
 }
 
+/* About */
+
 .about__me{
     margin: auto;
 }
 
 .about__box{
     background: rgba(129, 113, 96, 0.1);
-    background: 129,113,96,1;
     padding-top: 85px;
-    padding-bottom: 31px;
+    padding-bottom: 91px;
 }
 .about__me-title{
     font-family: 'Montserrat';
@@ -743,7 +743,6 @@ body {
 }
 .about__me-desc{
     padding-bottom: 65px;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
     font-size: 21px;
@@ -753,4 +752,26 @@ body {
 }
 .bold__cards-title{
     font-weight: bold;
+}
+
+/* Gallery */
+
+.gallery__box{
+    padding-top: 80px;
+    background: rgba(246, 242, 237, 0.33);
+}
+
+.gallery__title{
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 34px;
+}
+.gallery__gifs{
+    margin-left: 70px;
+    opacity: 70%;
 }
