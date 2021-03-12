@@ -586,6 +586,7 @@ body {
    margin: 0 auto;
 }
 
+
 /* HEader start */
 
 .header {
@@ -738,9 +739,11 @@ body {
     letter-spacing: 0.05em;
     color: rgba(58, 63, 67, 1);
 }
+
 .about__card{
     column-gap: normal;
 }
+
 .about__me-desc{
     padding-bottom: 65px;
     font-style: normal;
@@ -754,14 +757,15 @@ body {
     font-weight: bold;
 }
 
-/* Gallery */
+/* Portfolio */
 
-.gallery__box{
+.portfolio__box{
     padding-top: 80px;
     background: rgba(246, 242, 237, 0.33);
+    padding-left: 55px;
 }
 
-.gallery__title{
+.portfolio__title{
     text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
@@ -771,7 +775,79 @@ body {
     line-height: 22px;
     margin-bottom: 34px;
 }
-.gallery__gifs{
-    margin-left: 70px;
+.portfolio__gifs{
+    margin: auto;
     opacity: 70%;
+    justify-content: space-around;
+    margin-left: 30px;
+    padding-bottom: 180px;
+}
+
+
+.wrapper__list-left{
+    padding-left: 217px;
+}
+
+.graphic__box{
+    background: rgba(246, 242, 237, 0.33);
+    padding-bottom: 2px;
+}
+
+.graphic__info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.15em;
+    margin-bottom: 25px;
+}
+
+.graphic__title{
+    padding-bottom: 25px;
+}
+
+.graphic__desc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.115em;
+    padding-bottom: 90px;
+}
+
+.graphic__img{
+    float: right;
+}
+
+
+.projects__box{
+    background: rgba(129, 113, 96, 0.1);
+}
+
+.projects__info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.15em;
+    margin-bottom: 25px;
+}
+
+.projects__title{
+    padding-bottom: 25px;
+    margin-left: 900px;
+}
+.projects__desc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.115em;
+    padding-bottom: 90px;
+    margin-left: 900px;
+}
+.projects__img{
+    float: left;
 }
